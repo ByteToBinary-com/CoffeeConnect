@@ -1,0 +1,23 @@
+{
+  "name": "coffeeconnect",
+  "version": "1.0.0",
+  "description": "CoffeeConnects coming-soon page \u2014 HTML and Tailwind CSS",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss -i ./src/styles.css -o ./site/assets/styles.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ByteToBinary-com/CoffeeConnect.git"
+  },
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ByteToBinary-com/CoffeeConnect/issues"
+  },
+  "homepage": "https://github.com/ByteToBinary-com/CoffeeConnect#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.0",
+    "tailwindcss": "^4.3.0"
+  }
+}
